@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Gills sans", sans-serif;
+}
+
+body, html {
+    height: 100%;
+	overflow: hidden;
+	
+}
+
+body {
+	
+background-image: url("buyscrn.jpg")
+
+}
+
+p {
+	margin: 0;
+	padding: 0%;
+	
+}
+
+footer {
+	
+	position:fixed;
+	width: 100%;
+	height: 27px;
+	bottom: 0;
+	background-color: Gray;
+	
+	
+	
+}
+
+/* MAIN-PICTURE-1 */
+.mushroomspice {
+	
+	
+	position: absolute;
+	left:100px;
+	top:100px;
+	background-repeat: no-repeat;
+	height: 350px;
+	width: 300px;
+	z-index: 1;
+
+
+}
+
+.mushroomfit{
+  height: 400px;
+  width: 400px;
+  z-index: 1;
+  position:relative;
+  left:125px;
+  top:110px;
+  
+}
+
+/* DESCRIPTION-1 */
+.DescPlace {
+	position: absolute;
+	left:800px;
+	top:200px;
+	background-repeat: no-repeat;
+	height: 350px;
+	width: 300px;
+	z-index: 1;
+	
+
+	
+}
+
+.DescCust {
+	
+	font-size: 30px;
+	text-align:center;
+	position:relative;
+	top:80px;
+	left:-10px;
+}
+
+/* ORDER BUTTON */
+.OrderButton {
+	
+	position: absolute;
+	left: 70px;
+	top: 250px;
+	background-color: #555555;
+	color:white;
+	font-size: 24px;
+}
+
+.OrderButton:hover {background-color: black}
+
+.OrderButton:active {
+  background-color: red;
+  transform: translateY(4px);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #30110D;
+  position:fixed;
+  width:100%
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #F2BC94;
+}
+
+.block1 {
+	
+	height: 300px;
+	width: 300px;
+	background-color: #DEB887;
+	left:790px;
+	top: 200px;
+	position: absolute;
+	z-index: 0;
+	
+	
+}
+
+.block2 {
+	
+	height: 600px;
+	width: 450px;
+	background-color: #389466;
+	left:195px;
+	top: 125px;
+	position: absolute;
+	z-index: 0;
+}
+
+.smlfont {
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	padding-top: 4px;
+}
+
+.middle{
+	text-align:center;
+	position:relative;
+	top:80px;
+	left:-10px;
+}
+	

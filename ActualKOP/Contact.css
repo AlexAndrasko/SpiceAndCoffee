@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Gills sans", sans-serif;
+}
+
+p {
+	margin: 0;
+	padding: 0%;
+	font-size:32px;
+	font-family: 'Gills sans', sans-serif;
+}
+
+pre {
+	margin: 0;
+	padding: 0%;
+	font-size:32px;
+	font-family: 'Gills sans', sans-serif;
+	
+}
+
+body, html {
+    
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('home_main.jpg');
+
+	
+}
+
+.activNAV {
+
+	color: #DEB887;
+}
+
+footer {
+	
+	position:fixed;
+	width: 100%;
+	height: 27px;
+	bottom: 0;
+	background-color: Gray;
+	
+	
+	
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #30110D;
+  position:fixed;
+  width:100%
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #F2BC94;
+}
+
+.smlfont {
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	padding-top: 4px;
+}
+
+.see
+{
+	background-color: #F2BC94;
+	position:relative;
+	top:250px;
+	
+}
+
+.legend
+{
+	position:relative;
+	left:450px;
+	top:40px;
+	font-size:30px;
+}
+
+.txtCenter
+{
+	text-align:center;
+	position:relative;
+	top:70px;
+}
+
+
+.guide
+{
+	position:relative;
+	top:-260px;
+	left:700px;
+	z-index:20;
+	
+}
+
+.buttonPLC
+{
+	position:relative;
+	left:565px;
+	top:60px;
+	background-color: #555555;
+	color:white;
+	font-size: 24px
+	
+}
+
+.buttonPLC:hover {background-color: black}
+
+.buttonPLC:active {
+  background-color: red;
+  transform: translateY(4px);
+}
+
+.cartPOS
+{
+	position:relative;
+	left:100px;
+	top:350px;
+	z-index:15;
+	background-image: url(img_contact/cart.png)
+		min-height:100%;
+	
+}
+
+.pad14
+{
+	position:relative;
+	top:80px;
+	left:450px;
+	font-size:26px;
+}
+
+.pad4
+{
+	position:relative;
+	top:85px;
+	left:475px;
+}
+
+.pad13
+{
+	position:relative;
+	top:76px;
+	left:450px;
+	font-size:26px;
+}
+
+.pad3
+{
+	position:relative;
+	top:72px;
+	left:500px;
+}
+
+.pad12
+{
+	position:relative;
+	top:65px;
+	left:450px;
+	font-size:26px;
+}
+
+.pad2
+{
+	position:relative;
+	top:71px;
+	left:510px;
+}
+
+.pad11
+{
+	position:relative;
+	top:62px;
+	left:450px;
+	font-size:26px;
+}
+
+.pad1
+{
+	position:relative;
+	top:69px;
+	left:508px;
+}

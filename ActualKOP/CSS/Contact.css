@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Gills sans", sans-serif;
+}
+
+body, html {
+    height: 100%;
+	overflow: hidden;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img_home/home_main.jpg');
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;	
+	width:100%
+	
+}
+
+
+
+.divclr {
+	background-image:url('../img_contact/brown.jfif');
+	position:absolute;
+	 height: 200px;
+  width: 50%;
+  top:350px;
+  left:450px;
+ 
+
+}
+
+.maintxt {
+	
+	position:relative;
+	top:40px;
+	left:80px;
+	font-size:24px;
+	
+	
+}
+
+.subtxt1 {
+
+position:relative;
+	top:50px;
+	left:80px;
+	font-size:24px;
+	;
+	
+}
+
+.subtxt2 {
+
+position:relative;
+	top:50px;
+	left:80px;
+	font-size:24px;
+	
+}
+
+
+
+.activNAV {
+
+	color: #DEB887;
+}
+
+.txtlyr {
+	 
+	 
+	 
+}
+
+footer {
+	
+	position:fixed;
+	width: 100%;
+	height: 27px;
+	bottom: 0;
+	background-color: Gray;
+	
+	
+	
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #30110D;
+  position:fixed;
+  width:100%
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #F2BC94;
+}
+
+.smlfont {
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	padding-top: 4px;
+}

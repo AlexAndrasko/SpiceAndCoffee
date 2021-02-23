@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Form</title>
+<link rel="stylesheet" href="Contact.css">
+</head>
+
+<body>
+<!-- NAV BAR -->
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="Recommended.html">Product List</a></li>
+  <li><a class="activNAV" href="contact.html">Order</a></li>
+  <li><a href="Order.html">Contact</a></li>
+  
+</ul>
+<div class="cartPOS"></div>
+<div class="see">
+
+<legend class="legend">Contact Form</legend>
+<form name="frmContact" method="post" action="contact.php">
+<p>
+<label class="pad11" for="Name">Name </label>
+<input class="pad1" type="text" name="txtName" id="txtName">
+</p>
+<p>
+<label class="pad12" for="email">Email</label>
+<input class="pad2" type="text" name="txtEmail" id="txtEmail">
+</p>
+<p>
+<label class="pad13" for="phone">Phone</label>
+<input class="pad3" type="text" name="txtPhone" id="txtPhone">
+</p>
+<p>
+<label class="pad14" for="message">Message</label>
+<textarea class="pad4" name="txtMessage" id="txtMessage"></textarea>
+</p>
+<p>&nbsp;</p>
+<p>
+<input class="buttonPLC" type="submit" name="Submit" id="Submit" value="Submit">
+</p>
+</form>
+
+<p class="txtCenter">Make sure to include your address in the message box, along with your chosen product ID and quantity <br>Order format: ID, amount</br>If the selected amount is unavailable, you will be refunded it's price</p>
+<pre class="guide">
+				    How to pay:
+			    Send money to IBAN: 	SK24 5200 0000 0000 1314 0117
+				Fill out the form
+			  Wait for goods to arrive
+</pre>
+</div>
+
+<!-- Footer -->
+<footer>
+<p class="smlfont">Copyright 2020-2021 by Andrasko Alex All Rights Reserved.
+Spice and Coffee is Powered by []</p>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,302 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Gills sans", sans-serif;
+}
+
+body, html {
+    height: 100%;
+	background-color: #F2BC94;
+}
+
+p {
+	margin: 0;
+	padding: 0%;
+}
+
+footer {
+	
+	position:fixed;
+	width: 100%;
+	height: 27px;
+	bottom: 0;
+	background-color: Gray;
+	
+	
+	
+}
+
+
+/* HERO IMAGE AND TEXT */
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('spicehero.jpg');
+	height: 60%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;	
+	width:100%
+	
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* PRODUCTS FIRST ROW */
+.mushroomspice {
+	
+	
+	position: absolute;
+	left:100px;
+	top:660px;
+	background-repeat: no-repeat;
+	height: 350px;
+	width: 300px;
+	z-index: 0;
+
+
+}
+
+.mushroomfit{
+  max-width: 300px;
+  height: 350px;
+}
+
+
+.mushroomtext {
+	
+	padding-top: 140px; 
+	position: absolute;
+	left:100px;
+	top:660px;
+	height: 350px;
+	width: 300px;
+	z-index: 1;
+	transition: opacity 1s ease-in-out;
+	
+}
+
+
+.mushtextfit {
+	text-align: center;
+	padding: 4px;
+	font-size: 40px;
+	visibility: hidden;
+	
+
+}
+
+.mushroomtext:hover .mushtextfit {
+	cursor: pointer;
+	visibility: visible;
+	background-color: black;
+	color:white;
+	animation-play-state: paused;
+	filter: alpha(opacity=50);
+	opacity: 85%;
+	zoom: 1;
+	
+}
+
+
+.pepperspice {
+	
+	position: absolute;
+	left:600px;
+	top:660px;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 250px;
+
+
+}
+
+.pepperfit{
+	
+  width: 300px;
+  height: 350px;
+}
+
+.peppertext {
+	
+	padding-top: 140px; 
+	position: absolute;
+	left:600px;
+	top:660px;
+	height: 350px;
+	width: 300px;
+	z-index: 1;
+	transition: opacity 1s ease-in-out;
+	
+}
+
+.pepptextfit {
+	text-align: center;
+	padding: 4px;
+	font-size: 40px;
+	visibility: hidden;
+
+}
+
+.peppertext:hover .pepptextfit {
+	cursor: pointer;
+	visibility: visible;
+	background-color: black;
+	color:white;
+	animation-play-state: paused;
+	filter: alpha(opacity=50);
+	opacity: 85%;
+	zoom: 1;
+	
+}
+
+.tomatospice {
+	
+	position: absolute;
+	left:1100px;
+	top:660px;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 250px;
+
+
+}
+
+.tomatofit{
+  width: 300px;
+  height: 350px;
+  
+}
+
+.tomatotext {
+	
+	padding-top: 140px; 
+	position: absolute;
+	left:1100px;
+	top:660px;
+	height: 350px;
+	width: 300px;
+	z-index: 1;
+	transition: opacity 1s ease-in-out;
+	
+}
+
+.tomtextfit {
+	text-align: center;
+	padding: 4px;
+	font-size: 40px;
+	visibility: hidden;
+
+}
+
+.tomatotext:hover .tomtextfit {
+	cursor: pointer;
+	visibility: visible;
+	background-color: black;
+	color:white;
+	animation-play-state: paused;
+	filter: alpha(opacity=50);
+	opacity: 85%;
+	zoom: 1;
+	
+}
+
+.lemonspice {
+	
+	
+	position: absolute;
+	left:1600px;
+	top:660px;
+	background-repeat: no-repeat;
+	height: 350px;
+	width: 300px;
+	z-index: 0;
+
+
+}
+
+.lemonfit{
+  width: 300px;
+  height: 350px;
+}
+
+
+.lemontext {
+	
+	padding-top: 140px; 
+	position: absolute;
+	left:1600px;
+	top:660px;
+	height: 350px;
+	width: 300px;
+	z-index: 1;
+	transition: opacity 1s ease-in-out;
+	
+}
+
+
+.lemtextfit {
+	text-align: center;
+	padding: 4px;
+	font-size: 40px;
+	visibility: hidden;
+
+}
+
+.lemontext:hover .lemtextfit {
+	cursor: pointer;
+	visibility: visible;
+	background-color: black;
+	color:white;
+	animation-play-state: paused;
+	filter: alpha(opacity=50);
+	opacity: 85%;
+	zoom: 1;
+	
+}
+
+/* NAV BAR CUSTOMIZATION */
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #30110D;
+  position:fixed;
+  width:100%
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #F2BC94;
+}
+
+.activNAV {
+
+	color: #DEB887;
+}
+
+.smlfont {
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	padding-top: 4px;
+}

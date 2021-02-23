@@ -1,0 +1,65 @@
+<!-- NAV BAR -->
+<ul>
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="Recommended.html">Recommended</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+  <li><a href="about.asp">Product List</a></li>
+</ul>
+</div>
+
+.activNAV {
+
+	color: black;
+}
+
+<!-- Footer -->
+<footer>
+<p class="smlfont">Copyright 2020-2020 by Andrasko Industries All Rights Reserved.
+Spice and Coffee is Powered by Crunchyroll</p>
+</footer>
+
+footer {
+	
+	position:fixed;
+	width: 100%;
+	height: 27px;
+	bottom: 0;
+	background-color: Gray;
+	
+	
+	
+}
+
+.smlfont {
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	padding-top: 4px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #DEB887;
+  position:fixed;
+  width:100%
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #FAEBD7;
+}
